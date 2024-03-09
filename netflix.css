@@ -1,0 +1,313 @@
+/*for desktop screen*/
+
+
+/* The sidebar menu */
+
+.sidenav {
+    height: 100%;
+    /* Full-height: remove this if you want "auto" height */
+    width: 160px;
+    /* Set the width of the sidebar */
+    position: fixed;
+    /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
+    left: 0;
+    /* Black */
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+
+/* The navigation menu links */
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+
+/* When you mouse over the navigation links, change their color */
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.view {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-left: 10px;
+}
+
+.main {
+    margin-left: 160px;
+    /* Same as the width of the sidebar */
+    padding: 0px 10px;
+}
+
+.icon {
+    width: 40px;
+    margin-top: 20px;
+    margin-left: 85%;
+    border-radius: 50%;
+    border: 2px solid;
+}
+
+.box1 {
+    background-image: url('file:///C:/Users/IC/Desktop/internship/images/witcher.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    margin-top: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.witcher {
+    color: white;
+    text-align: center;
+    width: 300px;
+    font-size: 40px;
+    margin-left: 470px;
+    margin-top: 150px;
+    letter-spacing: 2px;
+}
+
+.btn {
+    margin-left: 55%;
+}
+
+.img {
+    width: 100px;
+    border: 2px solid;
+    margin-top: 20px;
+}
+
+.img:hover {
+    border: 2px solid yellow;
+}
+
+.add {
+    background-color: red;
+    height: 50px;
+    margin-top: 20px;
+    width: 50px;
+    color: white;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.parties {
+    margin-left: 40px;
+}
+
+.box2 {
+    background-color: lightgray;
+    height: 160px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.box2:hover {
+    background-color: whitesmoke;
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.box3 {
+    background-color: lightgray;
+    height: 160px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.box3:hover {
+    background-color: whitesmoke;
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.box4 {
+    background-color: lightgrey;
+    height: 160px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.box4:hover {
+    background-color: whitesmoke;
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.box5 {
+    background-color: lightgrey;
+    height: 160px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.box5:hover {
+    background-color: whitesmoke;
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.image img {
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 50px;
+    width: 60px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+}
+
+.title {
+    margin-left: 20px;
+}
+
+.text {
+    margin-left: 20px;
+}
+
+.continue {
+    margin-left: 40px;
+}
+
+.box6 {
+    background-color: whitesmoke;
+    height: 180px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.box7 {
+    background-color: whitesmoke;
+    height: 180px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.box8 {
+    background-color: whitesmoke;
+    height: 180px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.box9 {
+    background-color: whitesmoke;
+    height: 180px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.pic1 {
+    height: 120px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.pic2 {
+    height: 120px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.pic3 {
+    height: 120px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.pic4 {
+    height: 120px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.title {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+@media screen and (min-width:576px) and (max-width:991px) {
+    .box1 {
+        background-color: red;
+        height: 300px;
+        width: auto;
+        margin-top: 20px;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+    .addimages {
+        background-color: yellow;
+        height: 100px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .box1 {
+        background-color: aqua;
+        height: 300px;
+        width: 100%;
+        margin-top: 20px;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+    .addimages {
+        background-color: gray;
+        height: 50px;
+        width: 100%;
+    }
+}
